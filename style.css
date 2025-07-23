@@ -42,6 +42,11 @@ body{
 .nav-links ul li a:hover{
     color: rgb(85, 101, 243);
 }
+@media (max-width: 768px) {
+    .hamburger{
+        display: block;
+    }
+}
 .explore{
     /* background-image: url(./images/wande.jpg); */
     background-image: url(./images//wande.jpg); 
@@ -274,4 +279,38 @@ body{
     font-size: 0.9em;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 5px;
+}
+
+
+.dest-sec{
+     padding: 60px 40px;
+     text-align: center;
+     background-color: #f4f4f4;
+}
+.dest-sec h2{
+    font-size: 2em;
+    color: #3498db;
+    margin-bottom: 40px;
+}
+.sort-cont{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.filter .sort{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    cursor: pointer;
+}
+.destin-contain{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+
 }
