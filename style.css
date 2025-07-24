@@ -43,7 +43,7 @@ body{
     color: rgb(85, 101, 243);
 }
 @media (max-width: 768px) {
-    .hamburger{
+    .toggle{
         display: block;
     }
 }
